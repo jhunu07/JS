@@ -36,14 +36,32 @@ return value/2
  
 // IIFE  IMMEDIATELY INVOKED FUNCTION EXPRESSION
 (function (){
-    console.log("connected");
+   // console.log("connected");
 
 })();
 
 // by arrow function
 ( (a,b,c)=>{
-    console.log(a*b*c);
+    //console.log(a*b*c);
 
 })(2,3,4)
+
+
+// let num = new Array(10)
+// for (let i = 1; i < num.length; i++) {
+//    num[i] = i*5;
+//     console.log(num[i]);
+// }
+let num = new Array(10)
+fun=(num)=>{
+    for (let i = 0; i < num.length; i++) {
+     num[i]=i*5;
+        
+    }
+    console.log(num);
+
+};
+fun(num)
+
 
 
