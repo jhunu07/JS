@@ -1,5 +1,37 @@
-function add(a,b){
-    return a+b;
+const user = {
+    username:"abcd",
+    id:55,
+    welcome:function(){
+   // console.log(`${this.username} is my name`);
+    }  
 }
-console.log(add(12,34));
+user.welcome()
+// with Parammerter
+var fun=(a,b,c)=>{
+//console.log(a+" "+b+" "+c);
 
+}
+fun(12,43,23)
+
+var show=(a,b=80)=>{
+    //console.log(a+" "+b);
+    
+}
+show( "mango ","apple")
+
+// without parenthese
+ 
+var car=x=>{
+    //console.log(x);
+    
+}
+car("maruti")
+// Arrow function
+var show = value => value/2;  
+console.log(show(100)); 
+// Normal function
+function myfun(value){
+return value/2
+}
+console.log(myfun(1000));
+ 

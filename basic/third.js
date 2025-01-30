@@ -1,5 +1,5 @@
 function numgen(){
-    let randomno =(Math.random () * 10000)
+    let randomno =Math.floor((Math.random () * 10000))
     return randomno;
 }
 
