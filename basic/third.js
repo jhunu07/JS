@@ -1,6 +1,12 @@
 function numgen(){
-    let randomno =Math.floor((Math.random () * 10000))
-    return randomno;
+   let no =Math.floor((Math.random () * 10000))
+   return no;
 }
-
  console.log(numgen())
+
+// ###  by arrow function
+ let fun=()=>{
+    let randomno =Math.floor((Math.random () * 10000))
+    return `Number is ${randomno}`;
+ } 
+ console.log(fun())
