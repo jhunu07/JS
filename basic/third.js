@@ -10,3 +10,5 @@ function numgen(){
     return `Number is ${randomno}`;
  } 
  console.log(fun())
+
+ 
